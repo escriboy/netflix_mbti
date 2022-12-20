@@ -7,8 +7,8 @@ body {
     background-position: center;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    background-repeat: no-repeat;
-    height: 100vh;
+    /*background-repeat: no-repeat;*/
+    /*height: 100vh;*/
 }
 
 .character {
@@ -27,5 +27,9 @@ body {
         padding-top: 50px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .btn {
+        font-size: 24px;
     }
 }
