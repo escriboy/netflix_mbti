@@ -90,7 +90,7 @@ export const questions = [
   },
   {
     number: '07',
-    question: '목적지를 향해 가던 중, 의문이 사내를 만난다. 당신의 반응은?',
+    question: '목적지를 향해 가던 중, 의문의 사내를 만난다. 당신의 반응은?',
     imageURL: 'https://www.entoin.com/images/minfp5.jpg',
     choices: [
       {
