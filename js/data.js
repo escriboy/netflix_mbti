@@ -161,8 +161,7 @@ export const questions = [
   },
   {
     number: '12',
-    question:
-      '축구감독인 당신은 3:0으로 지고 있던 중 휴식 시간을 갖는다. 당신이 라커룸에서 선수들에게 할 말은?',
+    question: '당신을 모티브로 한 드라마가 제작된다고 한다. 주인공은',
     imageURL: 'https://www.entoin.com/images/minfp5.jpg',
     choices: [
       {
