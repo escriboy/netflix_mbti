@@ -13,6 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     filter: contrast(80%);
     /*background-repeat: no-repeat;*/
     height: 100%;
@@ -146,3 +147,25 @@ body {
     font-family: 'GangwonEduSaeeum_OTFMediumA';
 }
 
+@media (max-width: 640px) {
+    .page-title {
+        font-size: 30px;
+    }
+    .character {
+        width: 90%;
+        max-height: 350px;
+        border-radius: 50px;
+    }
+    .character-text {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .result {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .sub_character_text, .pair_character_text {
+        font-size: 20px;
+    }
+}

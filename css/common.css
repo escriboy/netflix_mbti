@@ -93,17 +93,18 @@ img {
 }
 
 @media (max-width: 640px) {
-  body {
+
+  body section {
     padding-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .page-title {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .btn {
-    font-size: 34px;
+    font-size: 27px;
   }
 }
